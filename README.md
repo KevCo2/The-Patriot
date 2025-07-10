@@ -1,5 +1,5 @@
-# The-Patriot
-Local Ride Share Site By KevCo
+# The Patriot
+Local Ride Share Site by KevCo
 
 ## Testing
 
