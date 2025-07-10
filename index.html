@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Patriot - Ride Share by KevCo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #002868;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+    }
+    .tagline {
+      font-style: italic;
+      color: #ffffff;
+    }
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      color: #bf0a30;
+    }
+    footer {
+      background: #002868;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #bf0a30;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #002868;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="The Patriot Logo">
+    <h1>The Patriot</h1>
+    <div class="tagline">By KevCo - It's Yours. It's Local. It's Rideable.</div>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Ride Coverage</h2>
+      <p>We proudly serve Walker, Cedar Springs, Sparta, Kentwood, Wyoming, Grandville, Rockford, Ada, and Forest Hills. Grand Rapids is already covered by a city ride service, so we focus on YOU.</p>
+    </div>
+
+    <div class="section">
+      <h2>Need a Ride?</h2>
+      <p>Call or text us at <strong>(616) 389-0388</strong> to request a ride. We currently operate on a FREE community-first basis.</p>
+    </div>
+
+    <div class="section">
+      <h2>Become a Driver</h2>
+      <p>We manually approve all drivers to keep our riders safe. Fill out the form below to express interest and we will contact you for the next steps.</p>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Why do you want to drive for The Patriot?</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 The Patriot by KevCo. All rights reserved.
+  </footer>
+</body>
+</html>
